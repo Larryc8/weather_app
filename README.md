@@ -29,7 +29,7 @@ npm start
 
 _This project was created with_
 
-* [React js](https://es.reactjs.org/docs/getting-started.html) - El framework web usado
-* [open weather api](https://openweathermap.org/api) - Manejador de dependencias
+* [React js](https://es.reactjs.org/docs/getting-started.html)
+* [open weather api](https://openweathermap.org/api)
 ---
-⌨️ con ❤️ por [Larryc8](https://github.com/Villanuevand) 😊
+⌨️ with ❤️ by [Larryc8](https://github.com/Villanuevand) 😊, enjoy it
