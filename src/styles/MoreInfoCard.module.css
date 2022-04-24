@@ -1,0 +1,53 @@
+
+ .container{ /*presentational contioner for city weather info */
+  background-color: #eee;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+
+  position: relative;
+  top: 10px;
+  animation: slideup 300ms ease-in-out ;
+
+}
+
+.bigContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #7FB3D5;
+  padding: 30px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  border: 2px solid red;
+  word-break: break-all;
+}
+
+
+/* slide up animation  */
+
+@keyframes slideup {
+  from{
+    position: relative;
+    top: 60px;
+  }
+  to{
+    position: relative;
+    top: 10px;
+  }
+}
