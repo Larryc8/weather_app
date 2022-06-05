@@ -13,7 +13,7 @@ City details
 
 ### Instalation 🔧
 
-_To use this projct you just need to run on your pc_
+_To use this project you just need to run on your pc_
 
 ```
 npm install
@@ -32,4 +32,4 @@ _This project was created with_
 * [React js](https://es.reactjs.org/docs/getting-started.html)
 * [open weather api](https://openweathermap.org/api)
 ---
-⌨️ with ❤️ by [Larryc8](https://github.com/Villanuevand) 😊, enjoy it
+⌨️ with ❤️ by [Harold Riascos](https://www.linkedin.com/in/harold-andres-riascos-manyoma-980748238/) 😊, enjoy it
