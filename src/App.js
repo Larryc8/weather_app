@@ -4,6 +4,7 @@ import React, {
 } from 'react';
 
 import { Route} from "react-router-dom"
+import PropTypes from 'prop-types';
 
 import axios from 'axios';
 
@@ -15,7 +16,7 @@ import SearchBar from './components/SearchBar.jsx';
 import Ciudad from './components/Ciudad.jsx';
 import About from './components/About.jsx';
 
-import style from "./styles/Home.module.css"
+
 
 const apiKey = process.env.REACT_APP_API_KEY
 
@@ -39,7 +40,7 @@ function App() {
             cities: state.cities.find((city)=>city.id == data.id)? [...state.cities]: [...state.cities, data]
           })
         }
-      )
+      ).catch(alert)
   }
 
   function onClose(id){
@@ -56,12 +57,6 @@ function App() {
     })
   }
 
-  function getCityDetail(id){
-    setState({
-      ...state,
-      city: state.cities.filter( (city) => city.id == id )
-    })
-  }
 
   return (
     <>
